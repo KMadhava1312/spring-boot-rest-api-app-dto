@@ -15,3 +15,12 @@ post : http://localhost:8080/api/account/create
             "accStatus": "Active"
           }
           
+
+
+Summary : 
+
+🎯 Why DTO Pattern Is Added
+          Prevents exposing sensitive data 
+          Allows partial fields in request/response
+          Improves security , performance of api
+          Makes APIs stable even if entity changes
